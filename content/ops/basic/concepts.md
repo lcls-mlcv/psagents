@@ -8,6 +8,8 @@ Everyone wants an AI agent.  The instinct is to fine-tune a model on your domain
 
 This document argues that an AI agent is three layers -- and you should only invest in one of them.
 
+For canonical definitions of key terms (agent, model, harness, tooling, RAG, SKILL, MCP), see the [Core Terms Glossary](glossary.md).
+
 
 ## The Three Layers
 

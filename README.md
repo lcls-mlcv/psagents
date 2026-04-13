@@ -18,6 +18,16 @@ Then open:
 
 The website loads markdown content from `content/ops/*.md`.
 
+## Enable repository hooks
+
+This repository includes a pre-commit hook at `.githooks/pre-commit` that suggests potential new glossary terms from curriculum content.
+
+Enable it once per clone:
+
+```bash
+git config core.hooksPath .githooks
+```
+
 ## Adding more curriculum pages
 
 To add more Ops sections, create markdown files under `content/ops/` and update the mapping in `index.html`:
